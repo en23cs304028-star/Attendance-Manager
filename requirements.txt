@@ -1,0 +1,21 @@
+# ========================================
+# Attendance-AI: Requirements
+# Python 3.10+
+# ========================================
+
+# --- UI Framework ---
+streamlit>=1.30.0
+
+# --- Computer Vision & Face Recognition ---
+insightface>=0.7.3
+onnxruntime>=1.16.0            # CPU inference runtime for InsightFace ONNX models
+
+# --- Image Processing ---
+opencv-python-headless>=4.8.0  # Headless build (no GUI deps, ideal for servers)
+numpy>=1.24.0
+
+# --- Database Client ---
+supabase>=2.0.0                # Supabase Python client (includes postgrest, gotrue, etc.)
+
+# --- Utilities ---
+Pillow>=10.0.0                 # Image format conversion (camera input → numpy)
